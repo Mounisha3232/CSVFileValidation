@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<style>
+h1 {text-align: center;}
+</style>
+<body style="background-image: url('https://clubkendoupc.com/wp-content/uploads/2017/01/search-background-img.jpg');">
+
+<title>VALIDATION OF A CSV</title>
+
+
+<h1 style="color:white">VALIDATION OF CSV FILE</h1>
+<h2  style="color: white">Upload a csv file which you want to evaluate and use for your 
+project.</h2>
+<h3  style="color: white"> Here we will check for
+<ul> <li> Null values</li>
+<li> Fill null values</li>
+<li>Data type pediction</li>
+<li> Label encoding </li>
+<li>Predict duplicate value</li>
+<li>Remove duplicate values</li>
+<li> OneHot encoding (if needed)</li>
+<li> Feature scaling (if needed)</li>
+ and after all these is done u can get the csv which is 
+ ready to use for your project</ul></h3>
+ 
+<h3  style="color: white"> Do you want to do OneHot Encoding and Feature Scaling?</h3>
+<h3  style="color: white"> Remember if you do this you data will be in binary format,
+which is not understandable by humans.</h3> 
+<form action = "/login" method=post enctype=multipart/form-data>
+<input id="csvFileInput" type="file" name="f1" accept=".csv"/>
+
+<label for = "s">Choose your option</label>
+<select name = "s">
+<option value = "Yes">Yes</option>
+<option value = "No">No</option>
+<input type=submit value=Upload>
+<p  style="color: white"><strong>{{a1}}</br></strong>{{a2}}</br>{{a3}}</br>{{a4}}</br>{{a5}}</br><strong>{{a6}}<strong></p>
+</form>
+
+<p style="color: white"> FOR REFFRENCE:</P>
+<h3  style="color: white">Null Value :</h3>
+<p>A NULL value in a table is a value in a 
+field that appears to be blank. It is very important to understand 
+that a NULL value is different than a zero value or a field that 
+contains spaces. And here we will try to fill the null value with 
+MODE value. The mode of a set of data values is the value that appears
+ most often.</p>
+ <h3 style="color: white">Data Type Pediction</h3>
+ <p>
+ A data type, in programming, is a classification that specifies 
+ which type of value a variable has and what type of mathematical, 
+ relational or logical operations can be applied to it without causing
+  an error. A string, for example, is a data type that is used to 
+  classify text and an integer is a data type used to classify 
+  whole numbers. So here we also predict the data type for each column heading.</p>
+<h3 style="color: white"> Label Encoding</h3>
+<p>
+ Label encoding is to convert the textual data form to numerical form.
+  It is an important pre-processing step for the structured dataset 
+  in supervised learning. It helps us in giving different value for 
+  each and every value. label encoding is important because our spyder 
+  or jupyter notebook will not accept textual data so if the data is converted
+  then it will be easy for the user to get the output as required.</P>
+ <h3 style="color: white">Predict Duplicate Value</h3>
+ <p>
+  Predicting duplicate value is also important so that our dataset is so 
+  clear with all needed or important information. Sometimes it happens 
+  that we enter some data twice or many times so it is not nessaceary to 
+  run the epochs all the time so by predicting and deleting it we are
+  making the csv with all short and important data.</p>
+ <h3 style="color: white">OneHot Encoding</h3>
+ <p>
+  One hot encoding is a process by which categorical variables are 
+  converted into a form that could be provided to ML algorithms to do 
+  a better job in prediction. The categorical value represents the 
+  numerical value of the entry in the dataset. As the number of unique
+   entries increases, the categorical values also proportionally 
+   increases. the categorical values start from 0 goes all the way 
+   up to N-1 categories. 0 indicates non existent while 1 indicates 
+   existent. </P>
+   <h3 style="color: white">Feature Scaling</h3>
+   <p>
+   Feature Scaling is a technique to standardize the independent 
+   features present in the data in a fixed range. It is performed 
+   during the data pre-processing. In data processing, it is
+    also known as data normalization and is generally performed 
+    during the data preprocessing step. In this all the value of the 
+    colunm are ranged between some values.</p>
+</body>
+</html>
