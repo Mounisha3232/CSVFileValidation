@@ -1,1 +1,1 @@
-# CSVFileValidation
+CSV looks easy, but it can be hard to make a CSV file that other people can read easily. Invalid CSV files create challenges for people.Thus in this project we will get a csv file from the user with any number of rows and column and validation of data, filter the duplicate records and check what has to be used in the date type and for null value,if needed by the user Feature scaling also done. Through this the CSV file could become more definite and easy to use in various applications like model building.
